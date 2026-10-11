@@ -1,0 +1,827 @@
+/* Offline reference subset. Rebuild only from reviewed official sources. */
+window.ClinicalRules = {
+  "version": "0.3.1",
+  "checked": "2026-10-11",
+  "icdStart": "2026-10-01",
+  "icdEnd": "2027-09-30",
+  "icdEdition": "FY2027",
+  "icds": [
+    {
+      "code": "E10.9",
+      "description": "Type 1 diabetes mellitus without complications",
+      "plain": "Type 1 diabetes",
+      "pattern": "type 1 diabetes|type i diabetes|\\bT1DM\\b"
+    },
+    {
+      "code": "E11.65",
+      "description": "Type 2 diabetes mellitus with hyperglycemia",
+      "plain": "Type 2 diabetes with high blood sugar",
+      "pattern": "type 2 diabetes with hyperglycemia"
+    },
+    {
+      "code": "E11.9",
+      "description": "Type 2 diabetes mellitus without complications",
+      "plain": "Type 2 diabetes",
+      "pattern": "type 2 diabetes|type ii diabetes|\\bT2DM\\b"
+    },
+    {
+      "code": "E78.5",
+      "description": "Hyperlipidemia, unspecified",
+      "plain": "High cholesterol",
+      "pattern": "hyperlipidemia"
+    },
+    {
+      "code": "I10",
+      "description": "Essential (primary) hypertension",
+      "plain": "High blood pressure",
+      "pattern": "hypertension|high blood pressure|\\bHTN\\b"
+    },
+    {
+      "code": "I48.91",
+      "description": "Unspecified atrial fibrillation",
+      "plain": "Atrial fibrillation",
+      "pattern": "atrial fibrillation|\\bAFib\\b"
+    },
+    {
+      "code": "I50.9",
+      "description": "Heart failure, unspecified",
+      "plain": "Heart failure",
+      "pattern": "heart failure|\\bCHF\\b"
+    },
+    {
+      "code": "J44.9",
+      "description": "Chronic obstructive pulmonary disease, unspecified",
+      "plain": "COPD",
+      "pattern": "\\bCOPD\\b|chronic obstructive pulmonary disease"
+    },
+    {
+      "code": "J45.909",
+      "description": "Unspecified asthma, uncomplicated",
+      "plain": "Asthma",
+      "pattern": "\\basthma\\b"
+    },
+    {
+      "code": "N18.30",
+      "description": "Chronic kidney disease, stage 3 unspecified",
+      "plain": "Stage 3 kidney disease",
+      "pattern": "stage 3 chronic kidney disease|\\bCKD stage 3\\b"
+    },
+    {
+      "code": "N18.31",
+      "description": "Chronic kidney disease, stage 3a",
+      "plain": "Stage 3a kidney disease",
+      "pattern": "stage 3a chronic kidney disease|\\bCKD stage 3a\\b"
+    },
+    {
+      "code": "N18.32",
+      "description": "Chronic kidney disease, stage 3b",
+      "plain": "Stage 3b kidney disease",
+      "pattern": "stage 3b chronic kidney disease|\\bCKD stage 3b\\b"
+    }
+  ],
+  "fees": [
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "09",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 24.32,
+      "facility": 7.68,
+      "qp": "qp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "11",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 24.44,
+      "facility": 7.72,
+      "qp": "qp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "15",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 24.37,
+      "facility": 7.7,
+      "qp": "qp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "18",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 24.55,
+      "facility": 7.89,
+      "qp": "qp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "20",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 22.85,
+      "facility": 7.58,
+      "qp": "qp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "28",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 24.26,
+      "facility": 7.71,
+      "qp": "qp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "31",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 25.53,
+      "facility": 7.77,
+      "qp": "qp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "99",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 23.55,
+      "facility": 7.62,
+      "qp": "qp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "09",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 24.19,
+      "facility": 7.64,
+      "qp": "nonqp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "11",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 24.32,
+      "facility": 7.68,
+      "qp": "nonqp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "15",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 24.25,
+      "facility": 7.66,
+      "qp": "nonqp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "18",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 24.43,
+      "facility": 7.85,
+      "qp": "nonqp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "20",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 22.74,
+      "facility": 7.54,
+      "qp": "nonqp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "28",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 24.14,
+      "facility": 7.67,
+      "qp": "nonqp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "31",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 25.4,
+      "facility": 7.73,
+      "qp": "nonqp"
+    },
+    {
+      "year": "2026",
+      "carrier": "04412",
+      "locality": "99",
+      "code": "99211",
+      "modifier": "",
+      "nonfacility": 23.43,
+      "facility": 7.58,
+      "qp": "nonqp"
+    }
+  ],
+  "localities": {
+    "09": "Brazoria",
+    "11": "Dallas",
+    "15": "Galveston",
+    "18": "Harris / Houston",
+    "20": "Jefferson / Beaumont",
+    "28": "Tarrant / Fort Worth",
+    "31": "Travis / Austin",
+    "99": "Rest of Texas (includes Bexar)"
+  },
+  "provenance": [
+    {
+      "id": "R01",
+      "title": "ICD-10-CM FY2027 descriptions",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD10CM/2027/icd10cm-code-descriptions-2027.zip",
+      "sha256": "93e3ad6004badf470c55bfe679b748ae88fd9b2b421851e409eec382c7713b9a"
+    },
+    {
+      "id": "R02",
+      "title": "CMS CY2026 non-QP annual carrier fees, updated December 29, 2025",
+      "url": "https://www.cms.gov/files/zip/cy2026-carrier-files-nonqp-updated-12-29-2025.zip",
+      "sha256": "657b4fec2310951c2122a8b9358bfeb21cfdbddcfe68ba05a6253d1644619e1e"
+    },
+    {
+      "id": "R03",
+      "title": "CMS CY2026 QP annual carrier fees, updated December 29, 2025",
+      "url": "https://www.cms.gov/files/zip/cy2026-carrier-files-qp-updated-12-29-2025.zip",
+      "sha256": "c3379a4487fbfc32222ecc19550b420880467f1a6d38f14bad1267b2fd932f52"
+    },
+    {
+      "id": "R04",
+      "title": "CMS CY2026 October RVU/status file, updated August 26, 2026",
+      "url": "https://www.cms.gov/files/zip/rvu26d-updated-08-26-2026.zip",
+      "sha256": "521ff0f4ecbf13b5d99dc1dc04d9f82e5361e55c6b4b6b3033043598bf8406e6"
+    }
+  ],
+  "codeFamilies": [
+    {
+      "id": "office",
+      "label": "Established-patient office E/M",
+      "codes": [
+        "99211",
+        "99212",
+        "99213",
+        "99214",
+        "99215"
+      ],
+      "role": "Payer-recognized performer and eligible billing entity",
+      "caveat": "Original Medicare pharmacist-only office E/M: 99211 incident-to pathway. Commercial higher levels may be considered only with explicit payer recognition/policy or contract, lawful scope and applicable code criteria. No level is inferred from SOAP volume.",
+      "url": "https://www.ashp.org/pharmacy-practice/resource-centers/ambulatory-care/compensation-and-sustainable-business-models",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "mtm",
+      "label": "Pharmacist MTM",
+      "codes": [
+        "99605",
+        "99606",
+        "99607"
+      ],
+      "role": "Pharmacist under the applicable MTM benefit/contract",
+      "caveat": "Part D sponsor fees and accepted reporting method; commercial or state-specific Medicaid benefit/contract as verified. CY2026 PFS status X for all three: no payment under the physician fee schedule. Add-on, timing and modality rules require current review. No Part B/Part D duplicate billing.",
+      "url": "https://www.cms.gov/medicare/coverage/prescription-drug-coverage-contracting/medication-therapy-management",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "education",
+      "label": "Self-management education",
+      "codes": [
+        "98960",
+        "98961",
+        "98962"
+      ],
+      "role": "Payer-recognized educator",
+      "caveat": "Commercial coverage/contract, curriculum, qualified educator and service requirements must be checked. These references do not establish separate Original Medicare PFS payment.",
+      "url": "https://www.ashp.org/pharmacy-practice/resource-centers/ambulatory-care/compensation-and-sustainable-business-models",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "dsmt",
+      "label": "Diabetes training benefit",
+      "codes": [
+        "G0108",
+        "G0109"
+      ],
+      "role": "Accredited/enrolled program and eligible billing entity",
+      "caveat": "Verify program recognition, referral, individual/group coverage limits, actual time and applicable benefit. A pharmacist credential alone is not DSMT program accreditation.",
+      "url": "https://www.ashp.org/pharmacy-practice/resource-centers/ambulatory-care/compensation-and-sustainable-business-models",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "cgm",
+      "label": "CGM setup and training",
+      "codes": [
+        "95249",
+        "95250"
+      ],
+      "role": "Trained staff within scope; eligible billing practitioner/entity",
+      "caveat": "Verify device, data, training, frequency, payer coverage and code requirements. Do not infer professional interpretation from staff training.",
+      "url": "https://www.ashp.org/pharmacy-practice/resource-centers/ambulatory-care/compensation-and-sustainable-business-models",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "awv",
+      "label": "Annual wellness services",
+      "codes": [
+        "G0438",
+        "G0439"
+      ],
+      "role": "Qualifying care team/medical professional with required supervision; eligible billing entity",
+      "caveat": "Verify all wellness components, frequency, health-risk assessment, supervision and billing rules. A medication follow-up alone is not an AWV.",
+      "url": "https://www.ashp.org/pharmacy-practice/resource-centers/ambulatory-care/compensation-and-sustainable-business-models",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "ccm",
+      "label": "Clinical-staff chronic care management",
+      "codes": [
+        "99490",
+        "99439",
+        "99487",
+        "99489"
+      ],
+      "role": "Qualifying staff work under eligible billing practitioner",
+      "caveat": "All disease, service-period, consent, care-plan, actual time and supervision rules must be met; no duplicated time or services. CMS May2026 guidance includes qualifying pharmacist deprescribing contributions, not every isolated MTP.",
+      "url": "https://www.cms.gov/files/document/billing-supervised-medication-deprescribing-services-under-pfs.pdf",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "pcm",
+      "label": "Clinical-staff principal care management",
+      "codes": [
+        "99426",
+        "99427"
+      ],
+      "role": "Qualifying staff work under eligible billing practitioner",
+      "caveat": "Verify high-risk condition, care plan, period, actual work/time and supervision. Do not confuse staff work with practitioner-personal codes.",
+      "url": "https://www.cms.gov/files/document/billing-supervised-medication-deprescribing-services-under-pfs.pdf",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "tcm",
+      "label": "Transition-of-care service",
+      "codes": [
+        "99495",
+        "99496"
+      ],
+      "role": "Eligible billing practitioner plus care team",
+      "caveat": "Pharmacists may contribute medication reconciliation and coordination. Full discharge/contact/visit/decision-making requirements and eligible practitioner work must be reviewed.",
+      "url": "https://www.cms.gov/files/document/billing-supervised-medication-deprescribing-services-under-pfs.pdf",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "bhi",
+      "label": "Behavioral-health integration/collaborative care",
+      "codes": [
+        "99484",
+        "99492",
+        "99493",
+        "99494"
+      ],
+      "role": "Qualified care team with eligible billing practitioner and required consultant/roles",
+      "caveat": "Qualifying deprescribing may be part of the full service. Verify specific model, training/roles, validated measures, consent, care plan, period and time; pharmacist participation does not establish every role.",
+      "url": "https://www.cms.gov/files/document/billing-supervised-medication-deprescribing-services-under-pfs.pdf",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "rpm",
+      "label": "Remote physiologic monitoring",
+      "codes": [
+        "99453",
+        "99445",
+        "99454",
+        "99470",
+        "99457",
+        "99458"
+      ],
+      "role": "Eligible billing practitioner and qualifying clinical staff/device service",
+      "caveat": "Review initiating relationship, device/data days, period, interactive communication, actual time, supervision and exclusions. CY2026 includes 99445 and 99470. Not an automatic pharmacist direct-billing pathway.",
+      "url": "https://med.noridianmedicare.com/web/jeb/article-detail/-/view/10525/remote-physiologic-monitoring-rpm-2026-evaluation-and-management-em-updates",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "facility",
+      "label": "Hospital outpatient facility service",
+      "codes": [
+        "G0463"
+      ],
+      "role": "Hospital/facility billing entity",
+      "caveat": "Facility technical payment uses hospital outpatient rules; not physician-office incident-to or a direct pharmacist professional claim.",
+      "url": "https://www.ashp.org/pharmacy-practice/resource-centers/ambulatory-care/compensation-and-sustainable-business-models",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "vaccines",
+      "label": "Vaccine administration and possible home add-on",
+      "codes": [
+        "G0008",
+        "G0009",
+        "G0010",
+        "90480",
+        "M0201"
+      ],
+      "role": "Appropriately enrolled provider/supplier within scope",
+      "caveat": "Verify product, vaccine benefit PartB/PartD, state scope/age, enrollment and service-date rules. Product codes and home-add-on eligibility require current source lookup; no universal vaccine product list is bundled.",
+      "url": "https://www.cms.gov/medicare/payment/part-b-drugs/vaccine-pricing",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    },
+    {
+      "id": "restricted",
+      "label": "Related practitioner-work references",
+      "codes": [
+        "95251",
+        "G0402",
+        "99091",
+        "99424",
+        "99425",
+        "99491",
+        "99437"
+      ],
+      "role": "Requires the applicable eligible practitioner\u2019s own qualifying work",
+      "caveat": "Listed to teach the boundary: pharmacist assistance or a contract cannot replace required practitioner work or legal qualifications. Do not count pharmacist staff time as practitioner-personal time.",
+      "url": "https://www.ashp.org/pharmacy-practice/resource-centers/ambulatory-care/compensation-and-sustainable-business-models",
+      "status": "REFERENCE CANDIDATES \u2014 not assigned or approved"
+    }
+  ],
+  "pfsStatusReferences": [
+    {
+      "code": "90480",
+      "status": "X",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "95249",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "95250",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "95251",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "98960",
+      "status": "B",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "98961",
+      "status": "B",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "98962",
+      "status": "B",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99091",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99211",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99212",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99213",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99214",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99215",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99424",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99425",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99426",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99427",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99437",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99439",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99445",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99453",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99454",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99457",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99458",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99470",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99484",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99487",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99489",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99490",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99491",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99492",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99493",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99494",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99495",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99496",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99605",
+      "status": "X",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99606",
+      "status": "X",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "99607",
+      "status": "X",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "G0008",
+      "status": "X",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "G0009",
+      "status": "X",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "G0010",
+      "status": "X",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "G0108",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "G0109",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "G0402",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "G0438",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "G0439",
+      "status": "A",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "G0463",
+      "status": "X",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    },
+    {
+      "code": "M0201",
+      "status": "X",
+      "effectiveStart": "2026-10-01",
+      "effectiveEnd": "2026-12-31",
+      "source": "R04"
+    }
+  ],
+  "pfsStatusLegend": {
+    "A": "Active in PFS; does not establish pharmacist provider eligibility or coverage",
+    "B": "Bundled under PFS; not a separate fee-schedule payment",
+    "X": "Excluded from physician fee-schedule payment; may have a separate benefit/payment pathway"
+  },
+  "policyWatch": [
+    {
+      "title": "CMS May2026 pharmacist deprescribing guidance",
+      "status": "Published guidance \u2014 existing care-management families",
+      "url": "https://www.cms.gov/files/document/billing-supervised-medication-deprescribing-services-under-pfs.pdf",
+      "note": "Qualifying pharmacist work may contribute under existing service rules. This is not a new pharmacist-specific CPT code or direct provider recognition."
+    },
+    {
+      "title": "CY2027 PFS proposed rule",
+      "status": "PROPOSED \u2014 inactive pending final rule/effective dates",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2027-medicare-physician-fee-schedule-proposed-rule",
+      "note": "Includes proposed clinical-staff advance-care-planning HCPCS services and shared appointments. No pharmacist-specific future code is invented or activated."
+    }
+  ]
+};
