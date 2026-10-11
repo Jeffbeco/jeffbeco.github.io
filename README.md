@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33313083/README.md)
-
 # Dr.Rosario_PharmD.github.io
 
 Dr. Rosario, PharmD — professional portfolio and free ClinicalRx tools for healthcare professionals and students.

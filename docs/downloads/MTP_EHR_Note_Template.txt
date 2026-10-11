@@ -1,0 +1,115 @@
+DR ROSARIO CLINICAL TOOLS
+Original blank MTP note template | 2026-10-11
+
+Clinical note template
+
+Encounter date and time: [ ]   Setting and modality: [ ]
+
+Patient identifier: [populate within approved EHR]   Referral and reason: [ ]
+
+Author and role: [ ]   Other participants and actual contributions: [ ]
+
+CPA or privilege reference and permitted actions: [ ]
+
+Visit type: [initial CMM / CMM follow-up / targeted review / other]
+
+Subjective
+
+Patient goals and concerns: [ ]
+
+Reported use of prescriptions, OTC products and supplements: [ ]
+
+Symptoms, adherence, affordability, access, preferences and administration barriers: [ ]
+
+Allergies and reaction history, distinguishing allergy from intolerance: [ ]
+
+Objective
+
+Medication reconciliation sources and discrepancies: [ ]
+
+Relevant vitals, labs and device observations with dates, units and source: [ ]
+
+Observed administration or teach-back performance: [ ]
+
+Assessment
+
+Problems actually addressed, current therapy appropriateness and clinical reasoning: [ ]
+
+MTP identifiers and brief summaries: [repeat the intervention block below]
+
+No MTP identified: [select only after the documented review]
+
+Plan
+
+Actions performed today versus recommendations awaiting approval: [ ]
+
+Monitoring parameters, targets, timing and responsible person: [ ]
+
+Patient education and teach-back result: [ ]
+
+Follow-up, pending tasks and escalation instructions: [ ]
+
+Authentication, date and required review or co-signature: [EHR workflow]
+
+
+
+Repeatable intervention and billing blocks
+
+One block per distinct problem
+
+MTP ID: [ ]   Status: [new / carried forward]   Prior MTP ID: [ ]
+
+Medication or none currently prescribed: [ ]   Related medications: [ ]
+
+Condition and indication: [ ]   Domain and rationale: [ ]
+
+Observed problem and supporting facts: [ ]
+
+Clinical significance and urgency, with rationale: [ ]
+
+Intervention discussed: [ ]   Discussion date and participants: [ ]
+
+Decision: [pending / accepted / declined / deferred]   Reason: [ ]
+
+Implementation: [not started / implemented / partially implemented / discontinued]
+
+Actual action, authority, person implementing and date: [ ]
+
+Follow-up evidence: [ ]   Resolution: [unresolved / resolved / recurrence / closed without resolution]
+
+Resolution criterion, date and reviewer: [ ]
+
+Outcome event ID and related MTPs, to prevent duplicate counting: [ ]
+
+Service documentation and billing review
+
+Actual service furnished: [ ]   Payer product and benefit: [ ]
+
+Performer: [ ]   Eligible billing practitioner or entity: [ ]
+
+Verified payment route and source: [ ]   Date-of-service rule version: [ ]
+
+Candidate code and units: [review required]   Linked MTP IDs: [ ]
+
+Clinical terminology or diagnosis coding, separately reviewed: [ ]
+
+Applicable referral, order, consent, enrollment and supervision evidence: [ ]
+
+Actual time by person and eligible activity, only where required: [ ]
+
+Other billed services, overlapping time and bundling checks: [ ]
+
+Reviewer decision: [unverified / eligible for coding review / excluded]
+
+Missing requirements and reason: [ ]
+
+Several MTPs may support one service. Do not assign one payable code per intervention, infer a higher E/M level from MTP count, or duplicate time across services. The final code, claim and authentication remain in the approved clinical and billing workflow.
+
+Patient summary
+
+Agreed actions, medication instructions, monitoring and follow-up: [ ]
+
+Generate this separately from internal billing and economic analyses.
+
+
+

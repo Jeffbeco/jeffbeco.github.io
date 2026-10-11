@@ -1,0 +1,13 @@
+GENERAL EHR NOTE TEMPLATE ADAPTATION
+
+Applies as plain text to eClinicalWorks, Epic, Oracle Health/Cerner, athenahealth and Elation. Exact template and text-insertion features depend on your institution, role, vendor edition and configuration. No universal import file or integration is asserted.
+
+1. Download the blank note and retain an original copy.
+2. Ask the institution-approved template administrator to create a reusable text template using the supported editor.
+3. Keep date, author, patient context, signatures and co-signature workflow in native EHR fields.
+4. Repeat the MTP block only for distinct problems. Separate recommendations from implemented actions and confirmed resolution.
+5. Preserve referral, consent, supervision, actual eligible time and payer review as service-specific fields.
+6. Remove unused placeholders and review every generated note before signing.
+7. Test formatting in the vendor training environment with fictional cases. No patient data is required to establish the template.
+
+A downloaded draft is not an authenticated progress note, submitted claim, order or vendor-certified integration.
