@@ -604,6 +604,176 @@
       "reviewStatus": "Publisher metadata verified",
       "rights": "Bibliographic metadata and link; no reproduced full text.",
       "sourceVersion": "Registry 0.2.0"
+    },
+    {
+      "id": "S38",
+      "title": "CMS documentation and medical necessity",
+      "url": "https://www.cms.gov/training-education/medicare-learning-networkr-mln/compliance/medicare-provider-compliance-tips/evaluation-management-services",
+      "category": "Billing documentation",
+      "summary": "Guidance supports documenting the reason, assessment, rationale, plan and actual work; note volume does not establish a higher E/M level.",
+      "status": "Primary reference",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Reviewed for limited release 0.3; not a complete eligibility or clinical validation"
+    },
+    {
+      "id": "S39",
+      "title": "AHRQ teach-back, Toolkit third edition",
+      "url": "https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html",
+      "category": "Patient education",
+      "summary": "Use patient explanations and observed demonstrations to check understanding; document gaps, reteaching and what was actually observed.",
+      "status": "Primary reference",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Reviewed for limited release 0.3; not a complete eligibility or clinical validation"
+    },
+    {
+      "id": "S40",
+      "title": "CMS FY2027 ICD-10-CM guidelines",
+      "url": "https://www.cms.gov/files/document/fy-2027-icd-10-cm-coding-guidelines.pdf",
+      "category": "Coding references",
+      "summary": "Edition effective October 1, 2026 through September 30, 2027. Outpatient uncertainty is not coded as an established diagnosis. The limited local matcher requires confirmation and index/tabular review.",
+      "status": "Primary reference",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Reviewed for limited release 0.3; not a complete eligibility or clinical validation"
+    },
+    {
+      "id": "S41",
+      "title": "CMS published annual CY2026 carrier fee files",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/physician/carrier-specific-files/all-states-2026",
+      "category": "Payment benchmarks",
+      "summary": "Annual files updated December 29, 2025, separate Medicare QP/non-QP amounts. Quarterly revisions and claim adjustments are not incorporated; benchmark is not a current payment quote.",
+      "status": "Primary reference",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Reviewed for limited release 0.3; not a complete eligibility or clinical validation"
+    },
+    {
+      "id": "S42",
+      "title": "CMS CY2026 PFS final rule",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2026-medicare-physician-fee-schedule-final-rule-cms-1832-f",
+      "category": "Supervision",
+      "summary": "Qualifying real-time audio/video direct supervision is permanently permitted for applicable services with exceptions. Audio-only is excluded. State and institutional requirements remain separate.",
+      "status": "Primary reference",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Reviewed for limited release 0.3; not a complete eligibility or clinical validation"
+    },
+    {
+      "id": "S43",
+      "title": "CDC adult BMI screening",
+      "url": "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html",
+      "category": "Clinical calculation",
+      "summary": "Adult BMI applies to ages 20 and older and is a screening measure. Calculate kg/m² after explicit unit conversion; interpretation requires context.",
+      "status": "Primary reference",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Reviewed for limited release 0.3; not a complete eligibility or clinical validation"
+    },
+    {
+      "id": "S44",
+      "title": "NKF Cockcroft–Gault equation and limitations",
+      "url": "https://www.kidney.org/professionals/kdoqi/cockcroft-gault-equation-estimating-creatinine-clearance",
+      "category": "Clinical calculation",
+      "summary": "Legacy creatinine-clearance formula depends on age, chosen weight, serum creatinine and historical coefficient. Important assay and population limitations; not an automatic dosing rule.",
+      "status": "Primary reference",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Reviewed for limited release 0.3; not a complete eligibility or clinical validation"
+    },
+    {
+      "id": "S45",
+      "title": "SBA business planning",
+      "url": "https://www.sba.gov/counseling/plan-your-business/",
+      "category": "Practice planning",
+      "summary": "General planning guidance informs original sections for need, service model, operations, market, financial assumptions and milestones. It does not establish pharmacy scope or payer payment.",
+      "status": "Primary reference",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Reviewed for limited release 0.3; not a complete eligibility or clinical validation"
+    },
+    {
+      "id": "S46",
+      "title": "Texas Board of Pharmacy written-protocol resources",
+      "url": "https://www.pharmacy.texas.gov/drug_therapy.asp",
+      "category": "Texas scope",
+      "summary": "Official drug-therapy-management notification and protocol resources. Scope/privileges must be verified separately from payer recognition.",
+      "status": "Primary reference",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Reviewed for limited release 0.3; not a complete eligibility or clinical validation"
+    },
+    {
+      "id": "S47",
+      "title": "CMS fee locality key",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/physician-fee-schedule/locality-key",
+      "category": "Payment benchmarks",
+      "summary": "Select the service-location county and pricing locality. Texas carrier 04412 has eight fee localities; locality 99 includes Bexar.",
+      "status": "Primary reference",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Reviewed for limited release 0.3; not a complete eligibility or clinical validation"
+    },
+    {
+      "id": "S48",
+      "title": "CMS supervised pharmacist deprescribing guidance, May2026",
+      "url": "https://www.cms.gov/files/document/billing-supervised-medication-deprescribing-services-under-pfs.pdf",
+      "category": "Billing service families",
+      "summary": "Qualifying pharmacist deprescribing work may contribute to existing care-management services under applicable rules. This does not create a pharmacist-specific CPT code or independent PartB provider recognition.",
+      "status": "Primary reference / rule-specific review",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Limited reference review; not contract, coverage or claim approval"
+    },
+    {
+      "id": "S49",
+      "title": "CMS October2026 PFS status/RVU file",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26d",
+      "category": "Payment benchmarks",
+      "summary": "Source R04 archive hash is pinned. MTM 99605–99607 have PFS status X, with no physician-fee-schedule payment; PartD sponsor MTM is a separate benefit.",
+      "status": "Primary reference / rule-specific review",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Limited reference review; not contract, coverage or claim approval"
+    },
+    {
+      "id": "S50",
+      "title": "ASHP 2025 pharmacist billing reference directory",
+      "url": "https://www.ashp.org/pharmacy-practice/resource-centers/ambulatory-care/compensation-and-sustainable-business-models",
+      "category": "Billing service families",
+      "summary": "Source lead for broader office, education, diabetes, wellness, care-management, transition and facility families. Original summaries and identifiers only; current payer/code/performer requirements need review.",
+      "status": "Primary reference / rule-specific review",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Limited reference review; not contract, coverage or claim approval"
+    },
+    {
+      "id": "S51",
+      "title": "CMS CY2027 PFS proposed rule",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-cy-2027-medicare-physician-fee-schedule-proposed-rule",
+      "category": "Policy watch",
+      "summary": "Proposed services and changes remain inactive pending final rules and effective dates. No unverified pharmacist-specific future code is activated.",
+      "status": "Primary reference / rule-specific review",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Limited reference review; not contract, coverage or claim approval"
+    },
+    {
+      "id": "S52",
+      "title": "CMS Medicare Advantage contracting/APM report",
+      "url": "https://www.cms.gov/Medicare/Medicare-Advantage/Plan-Payment/Downloads/Report-to-Congress-APMs-and-Medicare-Advantage.pdf",
+      "category": "Payer contracting",
+      "summary": "Describes private negotiation of MA network provider payment terms. Recognition, benefit and the executed agreement still require verification; an MA contract cannot be treated as Original Medicare PFS approval.",
+      "status": "Primary reference / rule-specific review",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Limited reference review; not contract, coverage or claim approval"
+    },
+    {
+      "id": "S53",
+      "title": "CMS vaccine benefit/payment resources",
+      "url": "https://www.cms.gov/medicare/payment/part-b-drugs/vaccine-pricing",
+      "category": "Billing service families",
+      "summary": "Current vaccine administration/product resources. Verify benefit, service date, supplier enrollment, state scope and home-add-on rules.",
+      "status": "Primary reference / rule-specific review",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Limited reference review; not contract, coverage or claim approval"
+    },
+    {
+      "id": "S54",
+      "title": "Medicare contractor CY2026 RPM update",
+      "url": "https://med.noridianmedicare.com/web/jeb/article-detail/-/view/10525/remote-physiologic-monitoring-rpm-2026-evaluation-and-management-em-updates",
+      "category": "Billing service families",
+      "summary": "CY2026 RPM reference includes new 99445 and 99470. This contractor is not Texas MAC; use as a code-change source and verify applicable Texas/payer service rules.",
+      "status": "Primary reference / rule-specific review",
+      "lastChecked": "2026-10-11",
+      "reviewStatus": "Limited reference review; not contract, coverage or claim approval"
     }
   ],
   "rationales": [
@@ -933,5 +1103,6 @@
       "sourceId": "E03",
       "locator": "Table 2"
     }
-  ]
+  ],
+  "version": "0.3.1"
 }
